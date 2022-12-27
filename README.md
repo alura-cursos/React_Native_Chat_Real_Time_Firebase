@@ -9,7 +9,7 @@ O projeto foi desenvolvido para a criação do artigo "Criando um chat com Fireb
 ## 🧑‍💻 Tecnologias
 
 Esse projeto foi desenvolvido com a utilização das seguintes tecnologias:
-- [React Native][rn]
+- `React Native` : framework de desenvolvimento
 - `Expo`: tecnologia para simplificar o ambiente de desenvolvimento
 - `Componentes React Native`: componentes já existentes básicos da tecnologia para compor a tela
 - `StyleSheet`: estilização básica de componentes
