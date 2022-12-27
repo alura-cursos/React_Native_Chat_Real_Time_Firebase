@@ -19,14 +19,6 @@ export default function Login({ navigation }) {
                     />
                 </View>
 
-                <View style={styles.boxInput}>
-                    <Text>Senha</Text>
-                    <TextInput 
-                        style={styles.input} 
-                        onChangeText={setSenha}    
-                    />
-                </View>
-
                 <Button 
                     title="Entrar" 
                     onPress={() => navigation.navigate('Chat', { name: name })}

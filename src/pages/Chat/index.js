@@ -1,14 +1,10 @@
-import { View, Text } from "react-native";
-import { GiftedChat } from 'react-native-gifted-chat'
-import { useCallback, useEffect, useState } from "react";
 import { useRoute } from "@react-navigation/native";
 
+import { GiftedChat } from 'react-native-gifted-chat'
+import { useCallback, useEffect, useState } from "react";
+
 //importação do firebase e database
-import { 
-    collection, addDoc,onSnapshot, query, 
-    getDoc,orderBy, getDocs, 
-    loadBundle
-    } from "firebase/firestore";
+import { collection, addDoc,onSnapshot, query,orderBy } from "firebase/firestore";
 import { database } from "../config/firebase";
 
 export default function Chat() {
@@ -55,7 +51,7 @@ export default function Chat() {
 
 
 
-        //pega a mensagem enviada e envia para o firebase
+        //pega a mensagem enviada na posicao 0 de messages e envia para o firebase
         const { _id, createdAt, text, user } = messages[0];
         //envia a mensagem para o firebase
         addDoc(collection(database, "chats"), {
