@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com a utilização das seguintes tecnologias:
 
 ```bash
 # Clonar esse repositório
-$ git clone https://github.com/aandrelouis/React_Native_Chat_Real_Time_Firebase
+$ git clone https://github.com/alura-cursos/React_Native_Chat_Real_Time_Firebase
 # Vá para o ropositório
 $ cd React_Native_Chat_Real_Time_Firebase
 # Agora que já tem a pasta do projeto na sua máquina, dentro dela instale as dependências:
